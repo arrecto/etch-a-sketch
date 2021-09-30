@@ -1,0 +1,30 @@
+#grid-container {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+}
+
+.pixel-grid-outline {
+    z-index: 1;
+    outline: 1px  solid rgb(0, 0, 0);
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+}
+.sketch-pad {
+    display: flex;
+    justify-content: center;
+}
+#program-title {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(4, 49, 80);
+    font-size: 40px;
+}
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}

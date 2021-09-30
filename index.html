@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Etch-a-Sketch</title>
+    </head>
+    <body>
+      <div><p id="program-title">Etch-a-Sketch</p></div>
+
+      <div class='sketch-pad'>
+        <div id='menu'>
+              <div class="slidecontainer">
+              <label for="myRange">Grid</label>
+              <input type="range" min="1" max="100" value="10" class="slider" id="myRange">
+            </div>
+            <label for="color-picker">Pick A Color</label>
+            <input type='color' name='color-grid' id='color-picker' value='#ffffff'>
+            <div class="clear-button-container">
+              <button type="button" id='clear-button'>Clear Sketch Pad</button>
+            </div>
+        </div>
+        <div id=grid-container></div>
+      </div>
+
+    </body>
+    <script src='script/script.js'></script>
+</html>
